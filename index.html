@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaoBao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <img class="menuIcon" id="menuIcon" onclick="toggleMenu()" src="img/menu.png" alt="menu" width="55px"
+            height="33.61px">
+        <img class="logo" src="img/baobaologo.png" alt="">
+        <input class="campodebusca" placeholder="Campo de busca">
+        <img class="perfil" src="img/perfil.png" alt="" width="50px" height="50px">
+    </nav>
+
+    <div class="sidebarMenu hidden" id="sidebarMenu">
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion()">
+                Receitas por País <span class="rotate" id="accordionIcon">></span>
+            </div>
+
+            <div class="accordion-content accordion-hidden" id="accordionContent">
+                <ul>
+                    <li>Japão <img src="img/japão.png" alt=""></li>
+                    <li>China <img src="img/china.png" alt=""></li>
+                    <li>Tailândia <img src="img/tailândia.png" alt=""></li>
+                    <li>Índia <img src="img/india.png" alt=""></li>
+                    <li>Coreia <img src="img/coreia.png" alt=""></li>
+                    <li>Vietnã <img src="img/vietnã.png" alt=""></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="redes">
+            <a target="_blank" href="https://x.com/baobaonowok"><img src="img/twitterlogo.png" alt="twitter"
+                    width="50px" height="50px"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="img/instagramlogo.png" alt="instagram"
+                    width="50px" height="50px"></a>
+        </div>
+
+    </div>
+
+    <main class="content" id="mainContent">
+        <section class="main-topo">
+            <img class="sushiai" src="img/sushiai.jpg" alt="" width="922px" height="523px">
+            <div class="baobaostar"><img src="img/baobaostar.png" alt=""></div>
+        </section>
+
+        <img class="banner" src="img/banner.png" alt="" width="100%">
+
+        <div class="titulao">
+            <div class="linha1"></div>
+            <div class="titulo">Todas as receitas do BaoBao</div>
+            <div class="linha2"></div>
+        </div>
+
+        <div class="prato-1">
+            <img class="imgcomida" src="img/hossomaki.jpg" alt="">
+
+            <div class="divisor">
+
+                <div class="prato">Hossomaki</div>
+                <div class="origem">Origem: Japão</div>
+                <div class="sobre">Hossomaki é um tipo de sushi bem conhecido e apreciado por sua simplicidade e sabor.
+                    Em japonês, "hosoi" significa fino, e é exatamente assim que esse enrolado é: fino e elegante.</div>
+            </div>
+        </div>
+
+
+        <div class="linha-divisor"></div>
+
+
+
+        <div class="prato-1">
+            <img class="imgcomida" src="img/padthai.png" alt="">
+
+            <div class="divisor">
+
+                <div class="prato">Pad Thai</div>
+                <div class="origem">Origem: Tailândia</div>
+                <div class="sobre">O Pad Thai é um prato super famoso da Tailândia, conhecido por todo o mundo por seu
+                    sabor delicioso e único! É feito com macarrão de arroz frito e uma mistura incrível de temperos que
+                    deixam tudo bem saboroso e um pouquinho agridoce.</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="linha-divisor"></div>
+
+
+
+
+        <div class="prato-1">
+            <img class="imgcomida coretamanho" src="img/arrozchines.jpg" alt="">
+
+            <div class="divisor">
+
+                <div class="prato coretamanho">Arroz Frito</div>
+                <div class="origem">Origem: China</div>
+                <div class="sobre">O arroz frito chinês é um prato bem popular e saboroso, feito com arroz cozido,
+                    legumes coloridos e um temperinho especial que deixa tudo bem gostoso! É como uma festa de sabores
+                    na boca!</div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="linha-divisor"></div>
+
+
+
+
+
+
+
+        <div class="prato-1">
+            <img class="imgcomida" src="img/chickentikkamasala.JPG" alt="">
+
+            <div class="divisor">
+
+                <div class="prato">Chicken Tikka Masala</div>
+                <div class="origem">Origem: Índia</div>
+                <div class="sobre">O Chicken Tikka Masala é um prato popular da culinária indiana que consiste em
+                    pedaços de frango marinados em especiarias e iogurte, cozidos em um molho cremoso de tomate e
+                    especiarias. É conhecido por seu sabor rico e levemente picante, sendo apreciado tanto na Índia
+                    quanto em várias partes do mundo.</div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="linha-divisor"></div>
+
+
+
+
+
+
+
+        <div class="prato-1">
+            <img class="imgcomida" src="img/bibimbap.jpg" alt="">
+
+            <div class="divisor">
+
+                <div class="prato">Bibimbap</div>
+                <div class="origem">Origem: Coreia</div>
+                <div class="sobre">O bibimbap é um prato super popular da Coreia do Sul e uma ótima opção para quem
+                    gosta de comida saborosa e colorida. É como um abraço em uma tigela!</div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="linha-divisor"></div>
+
+
+
+
+
+
+
+        <div class="prato-1">
+            <img class="imgcomida" src="img/pho.jpg" alt="">
+
+            <div class="divisor">
+
+                <div class="prato">phở</div>
+                <div class="origem">Origem: Vietnã</div>
+                <div class="sobre">O phở é muito mais do que apenas uma sopa; é uma experiência gastronômica que te
+                    transporta direto para as ruas vibrantes do Vietnã. Essa delícia conquistou o paladar de pessoas do
+                    mundo todo e se tornou um dos pratos mais famosos da culinária vietnamita.</div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="redes-footer">
+            <img class="rede-do-footer" id="gmail" src="img/gmaillogo.png" alt="" width="50px" height="50px"
+                style="border: solid 1px #FFFFFF; border-radius: 10px;">
+            <a href="https://x.com/baobaonowok"><img class="rede-do-footer" src="img/twitterlogo.png" alt=""
+                    width="50px" height="50px"></a>
+            <a href=""><img class="rede-do-footer" src="img/instagramlogo.png" alt="" width="50px" height="50px"></a>
+        </div>
+
+        <div class="copyright">© BaoBao. Todos os direitos reservados.</div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
