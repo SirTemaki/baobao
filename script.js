@@ -43,3 +43,16 @@ document.getElementById("gmail").addEventListener("click", function() {
 
     
 })
+
+
+function toggleLogin() {
+    var perfil = document.getElementById("perfil");
+    var login = document.getElementById("login");
+    if (login.classList.contains("login-hidden")) {
+        login.classList.remove("login-hidden")
+        login.classList.add("login-visible")
+    } else {
+        login.classList.remove("login-visible")
+        login.classList.add("login-hidden")
+    }
+}

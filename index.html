@@ -15,8 +15,37 @@
             height="33.61px">
         <img class="logo" src="img/baobaologo.png" alt="">
         <input class="campodebusca" placeholder="Campo de busca">
-        <img class="perfil" src="img/perfil.png" alt="" width="50px" height="50px">
+        <img class="perfil" id="perfil" onclick="toggleLogin()" src="img/perfil.png" alt="" width="50px" height="50px">
     </nav>
+
+
+    <div class="janeladelogin login-hidden" id="login">
+        <div class="logintexto">LOGIN</div>
+        <input class="inserirGmail" type="text" placeholder="Insira o gmail">
+        <input class="inserirSenha" type="text" placeholder="Insira a senha">
+        <div class="logar">Logar</div>
+        <div class="registrese">Não tem uma conta? <a class="botaoderegistrar" href="tela-de-registro.html">Registre-se</a></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="sidebarMenu hidden" id="sidebarMenu">
 
@@ -43,7 +72,7 @@
         <div class="redes">
             <a target="_blank" href="https://x.com/baobaonowok"><img src="img/twitterlogo.png" alt="twitter"
                     width="50px" height="50px"></a>
-            <a target="_blank" href="https://www.instagram.com/"><img src="img/instagramlogo.png" alt="instagram"
+            <a target="_blank" href="https://www.instagram.com/baobaoreceitas/profilecard/?igsh=MWJub2IwZzQ5bWdhaA%3D%3D"><img src="img/instagramlogo.png" alt="instagram"
                     width="50px" height="50px"></a>
         </div>
 
@@ -64,11 +93,11 @@
         </div>
 
         <div class="prato-1">
-            <img class="imgcomida" src="img/hossomaki.jpg" alt="">
+            <a href="hossomaki.html" target="_blank" style="color: white;"><img class="imgcomida" src="img/hossomaki.jpg" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato">Hossomaki</div>
+                <a href="hossomaki.html" target="_blank" style="color: white;"><div class="prato">Hossomaki</div></a>
                 <div class="origem">Origem: Japão</div>
                 <div class="sobre">Hossomaki é um tipo de sushi bem conhecido e apreciado por sua simplicidade e sabor.
                     Em japonês, "hosoi" significa fino, e é exatamente assim que esse enrolado é: fino e elegante.</div>
@@ -81,11 +110,11 @@
 
 
         <div class="prato-1">
-            <img class="imgcomida" src="img/padthai.png" alt="">
+            <a href="padthai.html" target="_blank" style="color: white;"><img class="imgcomida" src="img/padthai.png" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato">Pad Thai</div>
+                <a href="padthai.html" target="_blank" style="color: white;"><div class="prato">Pad Thai</div></a>
                 <div class="origem">Origem: Tailândia</div>
                 <div class="sobre">O Pad Thai é um prato super famoso da Tailândia, conhecido por todo o mundo por seu
                     sabor delicioso e único! É feito com macarrão de arroz frito e uma mistura incrível de temperos que
@@ -102,11 +131,11 @@
 
 
         <div class="prato-1">
-            <img class="imgcomida coretamanho" src="img/arrozchines.jpg" alt="">
+            <a href="arrozfrito.html" target="_blank" style="color: white;"><img class="imgcomida coretamanho" src="img/arrozchines.jpg" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato coretamanho">Arroz Frito</div>
+                <a href="arrozfrito.html" target="_blank" style="color: white;"><div class="prato coretamanho">Arroz Frito</div></a>
                 <div class="origem">Origem: China</div>
                 <div class="sobre">O arroz frito chinês é um prato bem popular e saboroso, feito com arroz cozido,
                     legumes coloridos e um temperinho especial que deixa tudo bem gostoso! É como uma festa de sabores
@@ -128,11 +157,11 @@
 
 
         <div class="prato-1">
-            <img class="imgcomida" src="img/chickentikkamasala.JPG" alt="">
+            <a href="chickentikkamasala.html" target="_blank"><img class="imgcomida" src="img/chickentikkamasala.JPG" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato">Chicken Tikka Masala</div>
+                <a href="chickentikkamasala.html" target="_blank"><div class="prato">Chicken Tikka Masala</div></a>
                 <div class="origem">Origem: Índia</div>
                 <div class="sobre">O Chicken Tikka Masala é um prato popular da culinária indiana que consiste em
                     pedaços de frango marinados em especiarias e iogurte, cozidos em um molho cremoso de tomate e
@@ -155,11 +184,11 @@
 
 
         <div class="prato-1">
-            <img class="imgcomida" src="img/bibimbap.jpg" alt="">
+            <a href="bibimbap.html" target="_blank"><img class="imgcomida" src="img/bibimbap.jpg" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato">Bibimbap</div>
+                <a href="bibimbap.html" target="_blank" style="color: white ;"><div class="prato">Bibimbap</div></a>
                 <div class="origem">Origem: Coreia</div>
                 <div class="sobre">O bibimbap é um prato super popular da Coreia do Sul e uma ótima opção para quem
                     gosta de comida saborosa e colorida. É como um abraço em uma tigela!</div>
@@ -179,11 +208,11 @@
 
 
         <div class="prato-1">
-            <img class="imgcomida" src="img/pho.jpg" alt="">
+            <a href="pho.html" target="_blank" style="color: white;"><img class="imgcomida" src="img/pho.jpg" alt=""></a>
 
             <div class="divisor">
 
-                <div class="prato">phở</div>
+                <a href="pho.html" target="_blank" style="color: white;"><div class="prato">phở</div></a>
                 <div class="origem">Origem: Vietnã</div>
                 <div class="sobre">O phở é muito mais do que apenas uma sopa; é uma experiência gastronômica que te
                     transporta direto para as ruas vibrantes do Vietnã. Essa delícia conquistou o paladar de pessoas do
@@ -198,9 +227,9 @@
         <div class="redes-footer">
             <img class="rede-do-footer" id="gmail" src="img/gmaillogo.png" alt="" width="50px" height="50px"
                 style="border: solid 1px #FFFFFF; border-radius: 10px;">
-            <a href="https://x.com/baobaonowok"><img class="rede-do-footer" src="img/twitterlogo.png" alt=""
+            <a href="https://x.com/baobaonowok" target="_blank"><img class="rede-do-footer" src="img/twitterlogo.png" alt=""
                     width="50px" height="50px"></a>
-            <a href=""><img class="rede-do-footer" src="img/instagramlogo.png" alt="" width="50px" height="50px"></a>
+            <a href="https://www.instagram.com/baobaoreceitas/profilecard/?igsh=MWJub2IwZzQ5bWdhaA%3D%3D" target="_blank"><img class="rede-do-footer" src="img/instagramlogo.png" alt="" width="50px" height="50px"></a>
         </div>
 
         <div class="copyright">© BaoBao. Todos os direitos reservados.</div>

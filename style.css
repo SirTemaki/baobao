@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     text-decoration: none;
+    color: white;
 }
 
 body {
@@ -24,6 +25,107 @@ nav {
     background-color: #000;
     justify-content: center;
 }
+
+.logintexto {
+    font-size: 30px; /*  Tamanho da font do texto      */
+    color: white; /*  cor do texto     */
+    display: flex; /* Ativa o display flex: método de posicionar o elemento na página          */
+    justify-content: center; /*   Centraliza o elemento na horizontal (só é possível usar com display flex)    */
+    margin-top: 10px;
+}
+
+.janeladelogin { /*     Modificando a JanelaDeLogin         */ 
+    background-color: black; /*         cor de fundo                */ 
+    border: solid 1px white; /*         borda sólida de 1px com a cor branca            */ 
+    width: 200px;   /*         largura            */ 
+    height: 250px; /*         altura            */ 
+    position: fixed; /* position fixed: fixa o elemento num canto     */ 
+    left: 1220px; /*         espaçamento pra esquerda            */ 
+    top: 100px; /*         espaçamento pra cima            */ 
+    z-index: 1; /*   Coloca a janela de login mais pra frente (como se fosse uma camada acima)       */     
+}
+
+
+
+
+.login-hidden { 
+    display: none; /*  diz que o login tá escondido   */ 
+}
+
+.login-visible {
+    display: block;
+}
+
+
+.logar {
+    display: flex;
+    background-color: black;
+    border: solid 1px white;
+    height: 35px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.logar:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.registrese {
+    display: flex;
+    font-size: 13px;
+    margin-top: 8px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.botaoderegistrar {
+    color: orangered;
+    
+}
+
+
+
+
+.inserirGmail { /*   Modificando o campo de busca onde insere o gmail              */
+    height: 30px; /*  Altura                */
+    display: flex; /* Ativa o display flex: método de posicionar o elemento na página          */
+    margin: 0 auto; /*   tira as margens pra centralizar o elemento     */
+    margin-top: 35px; /*  aumenta a margem de cima, fazendo o elemento ir pra baixo         */
+    outline: none; /*   tirando as linhas feias do lado de fora do campo de busca que já vem de padrão    */
+    border-radius: 5px; /* Arredonda as bordas */
+    color: black;
+
+}
+
+
+.inserirSenha {
+    height: 30px; /*  Altura                */
+    display: flex; /* Ativa o display flex: método de posicionar o elemento na página          */
+    margin: 0 auto; /*   tira as margens pra centralizar o elemento     */
+    margin-top: 20px; /*  aumenta a margem de cima, fazendo o elemento ir pra baixo         */
+    outline: none; /*   tirando as linhas feias do lado de fora do campo de busca que já vem de padrão    */
+    border-radius: 5px; /* Arredonda as bordas */
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .menu {
     margin-left: 45px;
